@@ -2,53 +2,50 @@
 # -*- coding: latin-1 -*-
 
 import numpy as np
+import matplotlib.pyplot as pyplot
+import scipy.io.wavfile
+import pylab
 
 def ondasimple(t, f):
   return np.sin(2 * np.pi * f * t)
 
-
-# Generamos 16000 puntos a 16kHz.
-ts = np.arange(16000.0) / 16000.0
-
-
-# Armamos una onda senoidal discretizada con f=1000Hz.
-mionda1 = []
-for t in ts:
-  mionda1.append(ondasimple(t, 1000))
-mionda1 = np.array(mionda1)
-
-
 # Armamos una onda senoidal discretizada con f=100Hz.
-mionda2 = []
-for t in ts:
-  mionda2.append(ondasimple(t, 100))
-mionda2 = np.array(mionda2)
-
-
-# Combinamos ambas ondas periódicas simples, para
-# formar una onda periódica compuesta.
-mionda = mionda1 + mionda2
-
+def onda_senoidal(ts, frecuencia):
+    mionda = []
+    for t in ts:
+      mionda.append(ondasimple(t, frecuencia))
+    mionda = np.array(mionda)
+    return mionda
 
 # Graficamos la onda.
-import matplotlib.pyplot as pyplot
-pyplot.clf()
-pyplot.plot(ts[0:500], mionda[0:500])
-pyplot.savefig('mionda.png')
-
+def graficar(ts, onda, filename):
+    pyplot.clf()
+    pyplot.plot(ts[0:500], onda[0:500])
+    pyplot.savefig('ejercicio2/' + filename + '.png')
 
 # La guardamos como wav.
-import scipy.io.wavfile
-wavdata = np.array(mionda * 10000.0, dtype=np.int16)
-scipy.io.wavfile.write('mionda.wav', 16000, wavdata)
-
+def guardar(onda, filename):
+    wavdata = np.array(onda * 10000.0, dtype=np.int16)
+    scipy.io.wavfile.write('ejercicio2/' + filename + '.wav', 16000, wavdata)
 
 # Mostramos su espectrograma.
-import pylab
-pyplot.clf()
-sgram = pylab.specgram(mionda, Fs=16000.0)
-pyplot.savefig('espectrograma.png')
+def espectrograma(onda, filename):
+    pyplot.clf()
+    sgram = pylab.specgram(onda, Fs=16000.0)
+    pyplot.savefig('ejercicio2/' + filename + '_espectrograma.png')
 
+# Combinamos ambas ondas periódicas simples, para formar una onda periódica compuesta.
+def generar_onda_compuesta(frecuencia1, frecuencia2, filename):
+    # Generamos 16000 puntos a 16kHz.
+    ts = np.arange(16000.0) / 16000.0
+    onda = onda_senoidal(ts, frecuencia1) + onda_senoidal(ts, frecuencia2)
+    graficar(ts, onda, filename)
+    guardar(onda, filename)
+    espectrograma(onda, filename)
+
+
+# Ejemplo:
+generar_onda_compuesta(1000, 100, 'ejemplo')
 
 # Ejercicios:
 #
@@ -64,8 +61,7 @@ pyplot.savefig('espectrograma.png')
 # 4. Combinar dos senoidales con frecuencias 1000 y 100Hz con distintas
 #    fases (ej: 0 y pi), y comparar las formas de onda. ¿Tiene algún efecto
 #    perceptual el cambio de fase?
-# 
+#
 # 5. Crear dos senoidales simples con la misma frecuencia pero distintas
 #    fases, de modo que al combinarlas se anulen.
 #    http://en.wikipedia.org/wiki/Active_noise_control
-
