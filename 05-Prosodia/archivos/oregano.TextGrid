@@ -1,0 +1,296 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 10.299375 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "tones" 
+        xmin = 0 
+        xmax = 10.299375 
+        points: size = 27 
+        points [1]:
+            time = 0.19060199999999999 
+            mark = "HiF0" 
+        points [2]:
+            time = 0.190909 
+            mark = "H*" 
+        points [3]:
+            time = 0.53635999999999995 
+            mark = "H*" 
+        points [4]:
+            time = 0.60665000000000002 
+            mark = "L-L%" 
+        points [5]:
+            time = 1.0954600000000001 
+            mark = "L*" 
+        points [6]:
+            time = 1.61818 
+            mark = "H-" 
+        points [7]:
+            time = 2.0227300000000001 
+            mark = "L*" 
+        points [8]:
+            time = 2.6070199999999999 
+            mark = "H-" 
+        points [9]:
+            time = 3.2048100000000002 
+            mark = "L+H*" 
+        points [10]:
+            time = 3.5401199999999999 
+            mark = "!H*" 
+        points [11]:
+            time = 3.79731 
+            mark = "L-" 
+        points [12]:
+            time = 4.0979799999999997 
+            mark = "H*" 
+        points [13]:
+            time = 4.2536199999999997 
+            mark = "H-H%" 
+        points [14]:
+            time = 5.8706500000000004 
+            mark = "H*" 
+        points [15]:
+            time = 5.87127 
+            mark = "HiF0" 
+        points [16]:
+            time = 6.0758200000000002 
+            mark = "!H*" 
+        points [17]:
+            time = 6.2982300000000002 
+            mark = "!H*" 
+        points [18]:
+            time = 6.4955699999999998 
+            mark = "L-L%" 
+        points [19]:
+            time = 7.1516000000000002 
+            mark = "H*" 
+        points [20]:
+            time = 7.15191 
+            mark = "HiF0" 
+        points [21]:
+            time = 7.6822600000000003 
+            mark = "H-" 
+        points [22]:
+            time = 8.0382700000000007 
+            mark = "HiF0" 
+        points [23]:
+            time = 8.0423500000000008 
+            mark = "H*" 
+        points [24]:
+            time = 8.4971999999999994 
+            mark = "H-" 
+        points [25]:
+            time = 9.3564500000000006 
+            mark = "HiF0" 
+        points [26]:
+            time = 9.3586600000000004 
+            mark = "H*" 
+        points [27]:
+            time = 9.8546999999999993 
+            mark = "H-L%" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 10.299375 
+        intervals: size = 27 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.13226452331361196 
+            text = "<SIL>" 
+        intervals [2]:
+            xmin = 0.13226452331361196 
+            xmax = 0.39418799999999998 
+            text = "Let's" 
+        intervals [3]:
+            xmin = 0.39418799999999998 
+            xmax = 0.60619999999999996 
+            text = "see" 
+        intervals [4]:
+            xmin = 0.60619999999999996 
+            xmax = 0.78537999999999997 
+            text = "I" 
+        intervals [5]:
+            xmin = 0.78537999999999997 
+            xmax = 0.91886999999999996 
+            text = "need" 
+        intervals [6]:
+            xmin = 0.91886999999999996 
+            xmax = 1.6167 
+            text = "oregano" 
+        intervals [7]:
+            xmin = 1.6167 
+            xmax = 1.7131799999999999 
+            text = "'n" 
+        intervals [8]:
+            xmin = 1.7131799999999999 
+            xmax = 2.6072500000000001 
+            text = "marjoram" 
+        intervals [9]:
+            xmin = 2.6072500000000001 
+            xmax = 2.7279800000000001 
+            text = "'n" 
+        intervals [10]:
+            xmin = 2.7279800000000001 
+            xmax = 3.0557400000000001 
+            text = "some" 
+        intervals [11]:
+            xmin = 3.0557400000000001 
+            xmax = 3.3624200000000002 
+            text = "fresh" 
+        intervals [12]:
+            xmin = 3.3624200000000002 
+            xmax = 3.7965900000000001 
+            text = "basil" 
+        intervals [13]:
+            xmin = 3.7965900000000001 
+            xmax = 4.2531699999999999 
+            text = "okay" 
+        intervals [14]:
+            xmin = 4.2531699999999999 
+            xmax = 5.7960012625291402 
+            text = "SIL" 
+        intervals [15]:
+            xmin = 5.7960012625291402 
+            xmax = 6.0048000000000004 
+            text = "oh" 
+        intervals [16]:
+            xmin = 6.0048000000000004 
+            xmax = 6.1173999999999999 
+            text = "I" 
+        intervals [17]:
+            xmin = 6.1173999999999999 
+            xmax = 6.2246300000000003 
+            text = "don't" 
+        intervals [18]:
+            xmin = 6.2246300000000003 
+            xmax = 6.49594 
+            text = "know" 
+        intervals [19]:
+            xmin = 6.49594 
+            xmax = 6.6911100000000001 
+            text = "it's" 
+        intervals [20]:
+            xmin = 6.6911100000000001 
+            xmax = 6.8719999999999999 
+            text = "got" 
+        intervals [21]:
+            xmin = 6.8719999999999999 
+            xmax = 7.6817700000000002 
+            text = "oregano" 
+        intervals [22]:
+            xmin = 7.6817700000000002 
+            xmax = 7.8092699999999997 
+            text = "'n" 
+        intervals [23]:
+            xmin = 7.8092699999999997 
+            xmax = 8.4967100000000002 
+            text = "marjoram" 
+        intervals [24]:
+            xmin = 8.4967100000000002 
+            xmax = 8.6104299999999991 
+            text = "'n" 
+        intervals [25]:
+            xmin = 8.6104299999999991 
+            xmax = 8.8120100000000008 
+            text = "some" 
+        intervals [26]:
+            xmin = 8.8120100000000008 
+            xmax = 9.1686499999999995 
+            text = "fresh" 
+        intervals [27]:
+            xmin = 9.1686499999999995 
+            xmax = 9.8549000000000007 
+            text = "basil" 
+    item [3]:
+        class = "TextTier" 
+        name = "breaks" 
+        xmin = 0 
+        xmax = 10.299375 
+        points: size = 25 
+        points [1]:
+            time = 0.395455 
+            mark = "1" 
+        points [2]:
+            time = 0.60575999999999997 
+            mark = "4" 
+        points [3]:
+            time = 0.78635999999999995 
+            mark = "1" 
+        points [4]:
+            time = 0.91818 
+            mark = "1" 
+        points [5]:
+            time = 1.61818 
+            mark = "3" 
+        points [6]:
+            time = 1.7136400000000001 
+            mark = "0" 
+        points [7]:
+            time = 2.6072700000000002 
+            mark = "3" 
+        points [8]:
+            time = 2.7272699999999999 
+            mark = "0" 
+        points [9]:
+            time = 3.0545399999999998 
+            mark = "1" 
+        points [10]:
+            time = 3.3636400000000002 
+            mark = "1" 
+        points [11]:
+            time = 3.79731 
+            mark = "3" 
+        points [12]:
+            time = 4.2536199999999997 
+            mark = "4" 
+        points [13]:
+            time = 6.0051300000000003 
+            mark = "1" 
+        points [14]:
+            time = 6.1180599999999998 
+            mark = "1" 
+        points [15]:
+            time = 6.2248299999999999 
+            mark = "1" 
+        points [16]:
+            time = 6.4955699999999998 
+            mark = "4" 
+        points [17]:
+            time = 6.6911899999999997 
+            mark = "1" 
+        points [18]:
+            time = 6.8715999999999999 
+            mark = "1" 
+        points [19]:
+            time = 7.6816000000000004 
+            mark = "3" 
+        points [20]:
+            time = 7.80924 
+            mark = "0" 
+        points [21]:
+            time = 8.4965100000000007 
+            mark = "3" 
+        points [22]:
+            time = 8.6106499999999997 
+            mark = "0" 
+        points [23]:
+            time = 8.8119800000000001 
+            mark = "1" 
+        points [24]:
+            time = 9.1691099999999999 
+            mark = "1" 
+        points [25]:
+            time = 9.8552 
+            mark = "4" 
+    item [4]:
+        class = "TextTier" 
+        name = "misc" 
+        xmin = 0 
+        xmax = 10.299375 
+        points: size = 0 

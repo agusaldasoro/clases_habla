@@ -1,0 +1,182 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 6.156190476190476 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "TextTier" 
+        name = "tones" 
+        xmin = 0 
+        xmax = 6.156190476190476 
+        points: size = 14 
+        points [1]:
+            time = 0.69306699999999999 
+            mark = "H*" 
+        points [2]:
+            time = 1.2281200000000001 
+            mark = "H*" 
+        points [3]:
+            time = 1.2341200000000001 
+            mark = "HiF0" 
+        points [4]:
+            time = 1.7067600000000001 
+            mark = "L-L%" 
+        points [5]:
+            time = 2.8959999999999999 
+            mark = "L+H*" 
+        points [6]:
+            time = 2.89927 
+            mark = "HiF0" 
+        points [7]:
+            time = 3.94204 
+            mark = "L-L%" 
+        points [8]:
+            time = 4.8657399999999997 
+            mark = "L+H*" 
+        points [9]:
+            time = 4.87209 
+            mark = "HiF0" 
+        points [10]:
+            time = 5.2520600000000002 
+            mark = "L-H%" 
+        points [11]:
+            time = 5.4027799999999999 
+            mark = "L*" 
+        points [12]:
+            time = 5.76485 
+            mark = "H*" 
+        points [13]:
+            time = 5.7659200000000004 
+            mark = "HiF0" 
+        points [14]:
+            time = 6.1026699999999998 
+            mark = "L-L%" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "words" 
+        xmin = 0 
+        xmax = 6.156190476190476 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.2575555972861035 
+            text = "<SIL>" 
+        intervals [2]:
+            xmin = 0.2575555972861035 
+            xmax = 0.79057900000000003 
+            text = "marianna" 
+        intervals [3]:
+            xmin = 0.79057900000000003 
+            xmax = 1.01207 
+            text = "made" 
+        intervals [4]:
+            xmin = 1.01207 
+            xmax = 1.0786800000000001 
+            text = "the" 
+        intervals [5]:
+            xmin = 1.0786800000000001 
+            xmax = 1.70652 
+            text = "marmalade" 
+        intervals [6]:
+            xmin = 1.70652 
+            xmax = 2.4801622012450988 
+            text = "<SIL>" 
+        intervals [7]:
+            xmin = 2.4801622012450988 
+            xmax = 3.0286900000000001 
+            text = "marianna" 
+        intervals [8]:
+            xmin = 3.0286900000000001 
+            xmax = 3.2464 
+            text = "made" 
+        intervals [9]:
+            xmin = 3.2464 
+            xmax = 3.3601800000000002 
+            text = "the" 
+        intervals [10]:
+            xmin = 3.3601800000000002 
+            xmax = 3.9414899999999999 
+            text = "marmalade" 
+        intervals [11]:
+            xmin = 3.9414899999999999 
+            xmax = 4.30266744151597 
+            text = "<SIL>" 
+        intervals [12]:
+            xmin = 4.30266744151597 
+            xmax = 5.2503299999999999 
+            text = "marianna" 
+        intervals [13]:
+            xmin = 5.2503299999999999 
+            xmax = 5.4582199999999998 
+            text = "made" 
+        intervals [14]:
+            xmin = 5.4582199999999998 
+            xmax = 5.5223100000000001 
+            text = "the" 
+        intervals [15]:
+            xmin = 5.5223100000000001 
+            xmax = 6.1026699999999998 
+            text = "marmalade" 
+    item [3]:
+        class = "TextTier" 
+        name = "breaks" 
+        xmin = 0 
+        xmax = 6.156190476190476 
+        points: size = 12 
+        points [1]:
+            time = 0.79057900000000003 
+            mark = "1" 
+        points [2]:
+            time = 1.01207 
+            mark = "1" 
+        points [3]:
+            time = 1.0786800000000001 
+            mark = "1" 
+        points [4]:
+            time = 1.70652 
+            mark = "4" 
+        points [5]:
+            time = 3.0286900000000001 
+            mark = "1" 
+        points [6]:
+            time = 3.2464 
+            mark = "1" 
+        points [7]:
+            time = 3.3601800000000002 
+            mark = "1" 
+        points [8]:
+            time = 3.9414899999999999 
+            mark = "4" 
+        points [9]:
+            time = 5.2503299999999999 
+            mark = "4" 
+        points [10]:
+            time = 5.4582199999999998 
+            mark = "1" 
+        points [11]:
+            time = 5.5223100000000001 
+            mark = "1" 
+        points [12]:
+            time = 6.1026699999999998 
+            mark = "4" 
+    item [4]:
+        class = "TextTier" 
+        name = "misc" 
+        xmin = 0 
+        xmax = 6.156190476190476 
+        points: size = 4 
+        points [1]:
+            time = 6.8826200000000002 
+            mark = "creaky<" 
+        points [2]:
+            time = 7.63767 
+            mark = "creaky>" 
+        points [3]:
+            time = 8.6733200000000004 
+            mark = "creaky<" 
+        points [4]:
+            time = 8.8552999999999997 
+            mark = "creaky>" 
