@@ -1,0 +1,46 @@
+digraph lattice {
+	rankdir=LR;
+		node [shape=circle];"!SENT_START/0.00""!NULL/0.05""!NULL/0.09""buen/0.15""bueno/0.15""gwen/0.16""!NULL/0.35""día/0.38""dia/0.38""argentino/0.65""argentina/0.65""argentinos/0.65""!NULL/1.19""argentinas/0.65""!NULL/1.22""!NULL/1.25";
+	node [shape=doublecircle]; "!SENT_END/1.28";
+
+	"!NULL/1.25" -> "!SENT_END/1.28" [label="-42.705750"];
+	"!NULL/1.22" -> "!NULL/1.25" [label="-64.417067"];
+	"argentinas/0.65" -> "!SENT_END/1.28" [label="-259.716504"];
+	"!NULL/1.19" -> "!NULL/1.22" [label="-56.736176"];
+	"argentinos/0.65" -> "!SENT_END/1.28" [label="-261.150271"];
+	"argentinos/0.65" -> "!NULL/1.25" [label="-273.234871"];
+	"argentina/0.65" -> "!SENT_END/1.28" [label="-218.546932"];
+	"argentina/0.65" -> "!NULL/1.25" [label="-219.161404"];
+	"argentina/0.65" -> "!NULL/1.22" [label="-215.474576"];
+	"argentina/0.65" -> "!NULL/1.19" [label="-219.058992"];
+	"argentino/0.65" -> "!SENT_END/1.28" [label="-223.257878"];
+	"argentino/0.65" -> "!NULL/1.25" [label="-230.631533"];
+	"argentino/0.65" -> "!NULL/1.22" [label="-230.324297"];
+	"argentino/0.65" -> "!NULL/1.19" [label="-244.354724"];
+	"dia/0.38" -> "argentino/0.65" [label="-41.476808"];
+	"dia/0.38" -> "argentina/0.65" [label="-41.476808"];
+	"dia/0.38" -> "argentinos/0.65" [label="-41.476808"];
+	"dia/0.38" -> "argentinas/0.65" [label="-41.476808"];
+	"día/0.38" -> "argentino/0.65" [label="-41.476808"];
+	"día/0.38" -> "argentina/0.65" [label="-41.476808"];
+	"día/0.38" -> "argentinos/0.65" [label="-41.476808"];
+	"día/0.38" -> "argentinas/0.65" [label="-41.476808"];
+	"!NULL/0.35" -> "día/0.38" [label="-41.886455"];
+	"!NULL/0.35" -> "dia/0.38" [label="-41.886455"];
+	"gwen/0.16" -> "día/0.38" [label="-72.507605"];
+	"bueno/0.15" -> "!NULL/0.35" [label="-108.556583"];
+	"bueno/0.15" -> "día/0.38" [label="-103.231166"];
+	"bueno/0.15" -> "dia/0.38" [label="-103.231166"];
+	"buen/0.15" -> "!NULL/0.35" [label="-57.350648"];
+	"buen/0.15" -> "día/0.38" [label="-50.284229"];
+	"buen/0.15" -> "dia/0.38" [label="-50.284229"];
+	"!NULL/0.09" -> "buen/0.15" [label="-9.729128"];
+	"!NULL/0.09" -> "bueno/0.15" [label="-9.729128"];
+	"!NULL/0.09" -> "gwen/0.16" [label="-11.367718"];
+	"!NULL/0.05" -> "!NULL/0.09" [label="-14.644898"];
+	"!SENT_START/0.00" -> "!NULL/0.05" [label="-20.482374"];
+	"!SENT_START/0.00" -> "!NULL/0.09" [label="-20.277550"];
+	"!SENT_START/0.00" -> "buen/0.15" [label="-20.175139"];
+	"!SENT_START/0.00" -> "bueno/0.15" [label="-20.175139"];
+	"!SENT_START/0.00" -> "gwen/0.16" [label="-21.813728"];
+}

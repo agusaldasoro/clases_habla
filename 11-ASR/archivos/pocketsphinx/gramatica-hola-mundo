@@ -1,0 +1,5 @@
+#JSGF V1.0;
+grammar isolated_phrases;
+<saludo> = (hola | buen día | buenos días);
+<destinatario> = (mundo | argentina | universidad);
+public <grammar> = <saludo> <destinatario>;

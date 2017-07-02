@@ -1,0 +1,42 @@
+digraph lattice {
+	rankdir=LR;
+		node [shape=circle];"!SENT_START/0.00""!NULL/0.05""!NULL/0.09""!NULL/0.22""por/0.29""con/0.30""hola/0.30""hora/0.30""ahora/0.31""bola/0.30""la/0.50""mundo/0.63""mundos/0.63""!NULL/1.02""!NULL/1.05";
+	node [shape=doublecircle]; "!SENT_END/1.08";
+
+	"!NULL/1.05" -> "!SENT_END/1.08" [label="-26.524675"];
+	"!NULL/1.02" -> "!NULL/1.05" [label="-51.615583"];
+	"mundos/0.63" -> "!SENT_END/1.08" [label="-138.870497"];
+	"mundos/0.63" -> "!NULL/1.05" [label="-136.617436"];
+	"mundo/0.63" -> "!SENT_END/1.08" [label="-91.146565"];
+	"mundo/0.63" -> "!NULL/1.05" [label="-91.658624"];
+	"mundo/0.63" -> "!NULL/1.02" [label="-88.791092"];
+	"la/0.50" -> "mundo/0.63" [label="-35.127272"];
+	"la/0.50" -> "mundos/0.63" [label="-35.127272"];
+	"bola/0.30" -> "mundo/0.63" [label="-113.882000"];
+	"bola/0.30" -> "mundos/0.63" [label="-113.882000"];
+	"ahora/0.31" -> "mundo/0.63" [label="-139.484968"];
+	"ahora/0.31" -> "mundos/0.63" [label="-139.484968"];
+	"hora/0.30" -> "mundo/0.63" [label="-111.526527"];
+	"hora/0.30" -> "mundos/0.63" [label="-111.526527"];
+	"hola/0.30" -> "mundo/0.63" [label="-108.761407"];
+	"hola/0.30" -> "mundos/0.63" [label="-108.761407"];
+	"con/0.30" -> "la/0.50" [label="-111.014468"];
+	"por/0.29" -> "la/0.50" [label="-103.743225"];
+	"!NULL/0.22" -> "por/0.29" [label="-13.313543"];
+	"!NULL/0.22" -> "con/0.30" [label="-16.283487"];
+	"!NULL/0.22" -> "hola/0.30" [label="-16.283487"];
+	"!NULL/0.22" -> "hora/0.30" [label="-16.283487"];
+	"!NULL/0.22" -> "ahora/0.31" [label="-22.837847"];
+	"!NULL/0.22" -> "bola/0.30" [label="-16.283487"];
+	"!NULL/0.09" -> "!NULL/0.22" [label="-23.145083"];
+	"!NULL/0.05" -> "!NULL/0.09" [label="-16.693135"];
+	"!SENT_START/0.00" -> "!NULL/0.05" [label="-15.976252"];
+	"!SENT_START/0.00" -> "!NULL/0.09" [label="-15.976252"];
+	"!SENT_START/0.00" -> "!NULL/0.22" [label="-25.193320"];
+	"!SENT_START/0.00" -> "por/0.29" [label="-25.398144"];
+	"!SENT_START/0.00" -> "con/0.30" [label="-28.368088"];
+	"!SENT_START/0.00" -> "hola/0.30" [label="-28.368088"];
+	"!SENT_START/0.00" -> "hora/0.30" [label="-28.368088"];
+	"!SENT_START/0.00" -> "ahora/0.31" [label="-34.922448"];
+	"!SENT_START/0.00" -> "bola/0.30" [label="-28.368088"];
+}

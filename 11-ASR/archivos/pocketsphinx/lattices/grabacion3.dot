@@ -1,0 +1,38 @@
+digraph lattice {
+	rankdir=LR;
+		node [shape=circle];"!SENT_START/0.00""!NULL/0.03""!NULL/0.06""bueno/0.16""buenos/0.16""buenas/0.16""es/0.40""di/0.46""días/0.46""as/0.60""!NULL/0.72""universidad/0.75""universidades/0.75""!NULL/1.41""!NULL/1.44";
+	node [shape=doublecircle]; "!SENT_END/1.47";
+
+	"!NULL/1.44" -> "!SENT_END/1.47" [label="-20.482374"];
+	"!NULL/1.41" -> "!NULL/1.44" [label="-32.464563"];
+	"universidades/0.75" -> "!SENT_END/1.47" [label="-204.004447"];
+	"universidad/0.75" -> "!NULL/1.41" [label="-153.412983"];
+	"universidad/0.75" -> "!NULL/1.44" [label="-158.943224"];
+	"universidad/0.75" -> "!SENT_END/1.47" [label="-154.539513"];
+	"!NULL/0.72" -> "universidad/0.75" [label="-53.151761"];
+	"!NULL/0.72" -> "universidades/0.75" [label="-53.151761"];
+	"as/0.60" -> "!NULL/0.72" [label="-38.916511"];
+	"as/0.60" -> "universidad/0.75" [label="-34.410389"];
+	"as/0.60" -> "universidades/0.75" [label="-34.410389"];
+	"días/0.46" -> "!NULL/0.72" [label="-75.477549"];
+	"días/0.46" -> "universidad/0.75" [label="-70.971426"];
+	"días/0.46" -> "universidades/0.75" [label="-70.971426"];
+	"di/0.46" -> "as/0.60" [label="-37.994804"];
+	"es/0.40" -> "días/0.46" [label="-33.386270"];
+	"buenas/0.16" -> "di/0.46" [label="-79.471612"];
+	"buenas/0.16" -> "días/0.46" [label="-79.471612"];
+	"buenos/0.16" -> "di/0.46" [label="-79.266788"];
+	"buenos/0.16" -> "días/0.46" [label="-79.266788"];
+	"bueno/0.16" -> "días/0.46" [label="-138.153614"];
+	"bueno/0.16" -> "di/0.46" [label="-138.153614"];
+	"bueno/0.16" -> "es/0.40" [label="-68.615953"];
+	"!NULL/0.06" -> "bueno/0.16" [label="-9.933951"];
+	"!NULL/0.06" -> "buenos/0.16" [label="-9.933951"];
+	"!NULL/0.06" -> "buenas/0.16" [label="-9.933951"];
+	"!NULL/0.03" -> "!NULL/0.06" [label="-21.608905"];
+	"!SENT_START/0.00" -> "!NULL/0.03" [label="-22.530612"];
+	"!SENT_START/0.00" -> "!NULL/0.06" [label="-23.452318"];
+	"!SENT_START/0.00" -> "bueno/0.16" [label="-22.223376"];
+	"!SENT_START/0.00" -> "buenos/0.16" [label="-22.223376"];
+	"!SENT_START/0.00" -> "buenas/0.16" [label="-22.223376"];
+}
